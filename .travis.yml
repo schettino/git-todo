@@ -12,7 +12,7 @@ before_install:
  - npm install
 
 script:
- - Echo "deploying"
+ - npm teste
 
 after_success:
  - npm run build
